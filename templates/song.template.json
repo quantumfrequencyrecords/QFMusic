@@ -1,0 +1,24 @@
+{
+  "id": "song-slug",
+  "title": "",
+  "artistId": "artist-slug",
+  "albumId": "",
+  "releaseType": "single",
+  "releaseDate": "",
+  "genre": "",
+  "mood": "",
+  "description": "",
+  "stylePrompt": "",
+  "lyrics": "",
+  "audio": {"src": "assets/audio/song-slug.mp3"},
+  "artwork": {"src": "assets/images/releases/song-slug.jpg"},
+  "suno": {
+    "songId": "",
+    "model": "",
+    "durationSec": null,
+    "createdAt": "",
+    "sourceUrl": ""
+  },
+  "credits": {"writers": [], "producers": []},
+  "links": {"spotify": "", "appleMusic": ""}
+}
