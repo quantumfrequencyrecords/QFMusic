@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantumfrequencyrecords.github.io/QFMusic/schemas/song.schema.json",
+  "title": "QFMusic Song Record",
+  "type": "object",
+  "required": ["id", "title", "artistId", "releaseType", "stylePrompt", "lyrics", "audio", "artwork", "suno"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "title": {"type": "string", "minLength": 1},
+    "artistId": {"type": "string", "minLength": 1},
+    "albumId": {"type": "string"},
+    "releaseType": {"type": "string", "enum": ["single", "album-track"]},
+    "releaseDate": {"type": "string"},
+    "genre": {"type": "string"},
+    "mood": {"type": "string"},
+    "description": {"type": "string"},
+    "stylePrompt": {"type": "string"},
+    "lyrics": {"type": "string"},
+    "audio": {"type": "object", "required": ["src"], "properties": {"src": {"type": "string"}}},
+    "artwork": {"type": "object", "required": ["src"], "properties": {"src": {"type": "string"}}},
+    "suno": {
+      "type": "object",
+      "properties": {
+        "songId": {"type": "string"},
+        "model": {"type": "string"},
+        "durationSec": {"type": ["integer", "number", "null"], "minimum": 0},
+        "createdAt": {"type": "string"},
+        "sourceUrl": {"type": "string"}
+      }
+    },
+    "credits": {"type": "object", "properties": {"writers": {"type": "array", "items": {"type": "string"}}, "producers": {"type": "array", "items": {"type": "string"}}}},
+    "links": {"type": "object", "properties": {"spotify": {"type": "string"}, "appleMusic": {"type": "string"}}}
+  },
+  "additionalProperties": true
+}
