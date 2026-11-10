@@ -1,0 +1,151 @@
+{
+  "brand": {
+    "name": "Quantum Frequency Records",
+    "shortName": "QFR",
+    "tagline": "A home for artists, sounds and stories that refuse to exist inside the expected.",
+    "description": "An independent record label and creative platform built around artist ownership, creative freedom and music without borders."
+  },
+  "landing": {
+    "eyebrow": "QUANTUM FREQUENCY RECORDS",
+    "headlineLine1": "Unleash Music’s",
+    "headlineLine2": "Raw Vibrational Energy",
+    "description": "A home for artists, sounds and stories that refuse to exist inside the expected.",
+    "exploreLabel": "Explore",
+    "words": [
+      "Discover",
+      "Harness",
+      "Partner",
+      "Succeed"
+    ],
+    "leftFoot": "INDEPENDENT BY DESIGN",
+    "rightFoot": "EST. IN SOUND"
+  },
+  "navigation": [
+    {
+      "id": "home",
+      "label": "Home",
+      "path": "/home"
+    },
+    {
+      "id": "artists",
+      "label": "Artists",
+      "path": "/artists"
+    },
+    {
+      "id": "music",
+      "label": "Music",
+      "path": "/music"
+    },
+    {
+      "id": "videos",
+      "label": "Videos",
+      "path": "/videos"
+    },
+    {
+      "id": "news",
+      "label": "News",
+      "path": "/news"
+    },
+    {
+      "id": "about",
+      "label": "About Us",
+      "path": "/about"
+    },
+    {
+      "id": "gallery",
+      "label": "Gallery",
+      "path": "/gallery"
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "path": "/contact"
+    }
+  ],
+  "home": {
+    "eyebrow": "QUANTUM FREQUENCY RECORDS",
+    "headline": "A New Wave Of Sound.",
+    "subheadline": "A home for artists, sounds and stories that refuse to exist inside the expected.",
+    "missionTitle": "Built Around The Artist.",
+    "missionText": "Independent in spirit. Artist-first by design. A platform for music that does not need permission to be different.",
+    "featuredArtistsTitle": "The Artists",
+    "featuredArtistsText": "Different voices. Different worlds. One shared frequency.",
+    "newTitle": "New At QFR",
+    "newSubtitle": "The latest signals from across the label.",
+    "trendingTitle": "Hottest & Trending",
+    "trendingSubtitle": "A closer look at what is moving through the frequency.",
+    "newsTitle": "Latest News",
+    "newsSubtitle": "Updates, stories and announcements from QFR.",
+    "valuesTitle": "9 Values. One Label.",
+    "valuesSubtitle": "The principles behind every partnership, every release and every decision.",
+    "ctaTitle": "Have Something Worth Sharing?",
+    "ctaText": "Tell us what you are creating, what you are hearing or how we can work together.",
+    "ctaLabel": "Get In Touch"
+  },
+  "emptyStates": {
+    "artists": "The next frequency starts here. Artist profiles will appear as the roster grows.",
+    "music": "The catalog is being tuned. New singles, albums and releases will appear here.",
+    "videos": "No videos have been published yet. Check back for music videos, visualizers and behind-the-scenes footage.",
+    "news": "No stories have been published yet. Label announcements and artist updates will appear here.",
+    "gallery": "The gallery is ready for its first images.",
+    "trending": "Trending selections will appear here once there is activity to feature.",
+    "new": "This space is ready for the next label update. Use Label Studio to choose what appears here."
+  },
+  "aboutPage": {
+    "title": "A Different Kind Of Record Label.",
+    "subtitle": "Independent in spirit. Artist-first by design. Built for what comes next.",
+    "intro": "Quantum Frequency Records is an independent record label and creative platform built around the belief that great music does not need to fit a predetermined lane.",
+    "missionTitle": "The Mission",
+    "mission": "Discover distinctive voices. Give artists the freedom and support to develop their sound. Build partnerships that respect ownership, transparency and long-term creative ambition.",
+    "approachTitle": "How We Work",
+    "approach": "We use thoughtful systems, modern tools and efficient infrastructure to keep the focus on the music. The goal is to make the business simpler, not make the creative process smaller.",
+    "aiTitle": "Technology With Intention",
+    "ai": "Music technology can open new creative possibilities. Where AI tools are used in the creation or development of a release, that context should be documented accurately and transparently in the release information.",
+    "closingQuote": "Every artist has a frequency. Our job is to help the world hear it."
+  },
+  "store": {
+    "title": "The QFR Store",
+    "subtitle": "Physical and digital releases, apparel and artifacts are on the horizon.",
+    "status": "COMING SOON"
+  },
+  "legal": {
+    "privacyTitle": "Privacy Policy",
+    "privacyText": "This starter site does not include account registration, payment processing or a private customer database. Configure and publish a complete privacy policy before collecting personal information.",
+    "termsTitle": "Terms Of Use",
+    "termsText": "Use of this website and its content should be governed by a published terms-of-use policy. Replace this starter text with reviewed legal language before launch."
+  },
+  "pages": {
+    "artists": {
+      "kicker": "THE QFR ROSTER",
+      "title": "Artists",
+      "subtitle": "A growing roster of distinctive voices, original perspectives and different frequencies."
+    },
+    "music": {
+      "kicker": "THE CATALOG",
+      "title": "Music",
+      "subtitle": "Explore singles, albums and releases from across the Quantum Frequency Records catalog."
+    },
+    "videos": {
+      "kicker": "WATCH & LISTEN",
+      "title": "Videos",
+      "subtitle": "Music videos, visualizers, lyric videos, live performances and a look behind the scenes."
+    },
+    "news": {
+      "kicker": "THE LATEST",
+      "title": "News & Announcements",
+      "subtitle": "Label updates, artist stories, release news and everything moving through the QFR universe."
+    },
+    "gallery": {
+      "kicker": "VISUAL ARCHIVE",
+      "title": "Gallery",
+      "subtitle": "A growing collection of artwork, studio moments, live images and visual stories."
+    },
+    "contact": {
+      "kicker": "CONNECT WITH QFR",
+      "title": "Get In Touch",
+      "subtitle": "Questions, feedback, licensing, collaborations and new creative possibilities.",
+      "sideTitle": "Let’s Connect.",
+      "sideText": "For general questions, artist submissions, licensing, collaborations, feedback or press inquiries, send a note."
+    }
+  }
+}

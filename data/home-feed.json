@@ -1,0 +1,9 @@
+{
+  "slots": {
+    "labelAnnouncement": {"label":"New Label Announcements","current":null,"history":[]},
+    "newestArtist": {"label":"Newest Signed Artist","current":null,"history":[]},
+    "newestSingle": {"label":"Newest Released Single","current":null,"history":[]},
+    "newestAlbum": {"label":"Newest Released Album","current":null,"history":[]},
+    "newestVideo": {"label":"Newest Released Video","current":null,"history":[]}
+  }
+}

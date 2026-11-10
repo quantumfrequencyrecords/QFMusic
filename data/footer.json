@@ -1,0 +1,31 @@
+{
+  "labelName": "Quantum Frequency Records",
+  "tagline": "Unleash Music’s Raw Vibrational Energy.",
+  "description": "Independent music. Artist-first partnerships. No house sound.",
+  "email": "",
+  "location": "Independent · Worldwide",
+  "copyright": "© 2026 Quantum Frequency Records. All rights reserved.",
+  "socials": {
+    "instagram": "https://instagram.com/quantumfrequencyrecords",
+    "facebook": "",
+    "youtube": "https://youtube.com/@quantumfrequencyrecords",
+    "tiktok": "https://tiktok.com/@quantumfrequencyrecords",
+    "spotify": "https://open.spotify.com",
+    "appleMusic": "",
+    "x": "https://x.com/QFRecords"
+  },
+  "bottomLinks": [
+    {
+      "label": "Privacy",
+      "path": "/privacy"
+    },
+    {
+      "label": "Terms",
+      "path": "/terms"
+    },
+    {
+      "label": "Contact",
+      "path": "/contact"
+    }
+  ]
+}

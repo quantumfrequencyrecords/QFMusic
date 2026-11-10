@@ -1,0 +1,15 @@
+{
+  "email": "",
+  "formEndpoint": "",
+  "inquiryTypes": [
+    {"id":"general","label":"General Inquiry"},
+    {"id":"artist","label":"Artist Feedback"},
+    {"id":"song","label":"Song Feedback"},
+    {"id":"licensing","label":"Licensing / Content Use"},
+    {"id":"collaboration","label":"Collaboration"},
+    {"id":"booking","label":"Booking"},
+    {"id":"media","label":"Media / Press"},
+    {"id":"other","label":"Other"}
+  ],
+  "notice": "Connect a secure form service endpoint before using this form for public submissions. Never place private API keys or email credentials in this repository."
+}
