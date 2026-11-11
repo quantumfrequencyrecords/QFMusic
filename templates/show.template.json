@@ -1,0 +1,14 @@
+{
+  "id": "show-id",
+  "artistId": "artist-id",
+  "title": "Show Name",
+  "date": "2026-12-01",
+  "time": "20:00",
+  "venue": "Venue Name",
+  "city": "City",
+  "state": "State",
+  "status": "announced",
+  "ticketUrl": "https://example.com/tickets",
+  "description": "",
+  "createdAt": ""
+}

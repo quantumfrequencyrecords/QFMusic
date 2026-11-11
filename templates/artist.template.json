@@ -1,0 +1,47 @@
+{
+  "id": "artist-id",
+  "name": "Artist Name",
+  "type": "group",
+  "genres": [
+    "Alternative Rock"
+  ],
+  "genre": "Alternative Rock",
+  "hometown": "City, State",
+  "hometownCity": "City",
+  "hometownState": "State",
+  "formed": 2024,
+  "signedDate": "",
+  "tagline": "",
+  "description": "",
+  "bio": "",
+  "biography": "",
+  "image": {
+    "src": "assets/images/artists/artist-photo.jpg"
+  },
+  "banner": {
+    "src": "assets/images/artists/artist-banner.jpg"
+  },
+  "logo": {
+    "src": "assets/images/artists/artist-logo.png"
+  },
+  "socials": {},
+  "memberIds": [
+    "member-id"
+  ],
+  "stats": {
+    "week": null,
+    "month": null,
+    "ytd": null
+  },
+  "dna": [
+    {
+      "label": "Energy",
+      "value": 80
+    },
+    {
+      "label": "Atmosphere",
+      "value": 65
+    }
+  ],
+  "createdAt": ""
+}

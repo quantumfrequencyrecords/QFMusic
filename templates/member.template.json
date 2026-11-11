@@ -1,0 +1,22 @@
+{
+  "id": "member-id",
+  "artistId": "artist-id",
+  "name": "Member Name",
+  "nickname": "",
+  "hometown": {
+    "city": "",
+    "state": ""
+  },
+  "hometownDisplay": "",
+  "role": "Lead Vocals",
+  "primaryInstrument": "Lead vocals",
+  "additionalInstruments": [],
+  "bio": "",
+  "joinedDate": "",
+  "status": "active",
+  "image": {
+    "src": "assets/images/members/member-name.jpg"
+  },
+  "socials": {},
+  "createdAt": ""
+}
