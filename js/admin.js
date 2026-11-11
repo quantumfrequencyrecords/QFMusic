@@ -393,6 +393,7 @@ export async function exportDataBundle(state) {
   }
   entries.push(['PUBLISHING.txt','QFMusic data export. Upload these paths into the root of your QFMusic repository, replacing JSON files with the same names. Keep media files in their assets paths. Then allow GitHub Pages to redeploy.\n']);
   for (const [path,file] of pendingAssets.entries()) entries.push([path,file]);
+  for (const [path,file] of (window.QFMUSIC_EXTRA_ASSETS || new Map()).entries()) entries.push([path,file]);
   const zip = await makeZip(entries);
   const url = URL.createObjectURL(zip);
   const link = document.createElement('a'); link.href = url; link.download = `QFMusic-data-${new Date().toISOString().slice(0,10)}.zip`;
