@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantumfrequencyrecords.github.io/QFMusic/schemas/artist.schema.json",
+  "title": "QFMusic Artist",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "genres",
+    "memberIds"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "enum": [
+        "group",
+        "duo",
+        "solo"
+      ]
+    },
+    "genres": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "genre": {
+      "type": "string"
+    },
+    "hometown": {
+      "type": "string"
+    },
+    "hometownCity": {
+      "type": "string"
+    },
+    "hometownState": {
+      "type": "string"
+    },
+    "formed": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "signedDate": {
+      "type": "string"
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "string"
+    },
+    "biography": {
+      "type": "string"
+    },
+    "image": {
+      "type": "object",
+      "properties": {
+        "src": {
+          "type": "string"
+        }
+      }
+    },
+    "banner": {
+      "type": "object",
+      "properties": {
+        "src": {
+          "type": "string"
+        }
+      }
+    },
+    "logo": {
+      "type": "object",
+      "properties": {
+        "src": {
+          "type": "string"
+        }
+      }
+    },
+    "socials": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "memberIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "stats": {
+      "type": "object",
+      "properties": {
+        "week": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "month": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "ytd": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        }
+      }
+    },
+    "dna": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "label",
+          "value"
+        ],
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "value": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          }
+        }
+      }
+    },
+    "createdAt": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

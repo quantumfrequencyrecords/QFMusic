@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantumfrequencyrecords.github.io/QFMusic/schemas/show.schema.json",
+  "title": "QFMusic Artist Show",
+  "type": "object",
+  "required": [
+    "id",
+    "artistId",
+    "title",
+    "date"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "artistId": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "time": {
+      "type": "string"
+    },
+    "venue": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "announced",
+        "on-sale",
+        "sold-out",
+        "completed",
+        "cancelled"
+      ]
+    },
+    "ticketUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "description": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

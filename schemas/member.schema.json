@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantumfrequencyrecords.github.io/QFMusic/schemas/member.schema.json",
+  "title": "QFMusic Band Member",
+  "type": "object",
+  "required": [
+    "id",
+    "artistId",
+    "name",
+    "image"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique member identifier."
+    },
+    "artistId": {
+      "type": "string",
+      "description": "ID of the artist/band this member belongs to."
+    },
+    "name": {
+      "type": "string"
+    },
+    "nickname": {
+      "type": "string"
+    },
+    "hometown": {
+      "type": "object",
+      "properties": {
+        "city": {
+          "type": "string"
+        },
+        "state": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "hometownDisplay": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string",
+      "description": "Role or contribution within the act."
+    },
+    "primaryInstrument": {
+      "type": "string"
+    },
+    "additionalInstruments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "bio": {
+      "type": "string"
+    },
+    "joinedDate": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "featured",
+        "former"
+      ]
+    },
+    "image": {
+      "type": "object",
+      "required": [
+        "src"
+      ],
+      "properties": {
+        "src": {
+          "type": "string"
+        }
+      }
+    },
+    "socials": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "file": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}
